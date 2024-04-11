@@ -1,0 +1,24 @@
+Automated testing of API using RestAssured, testNG and cucumber
+
+Objective
+Demonstrate use of the following testing technologies and procedures as part of providing a complete testing framework.
+
+RestAssured (REST API invocation and testing)
+TestNG (Assertions)
+Cucumber (BBD test case)
+Maven Multiple Modules
+Log4J2 (logging)
+
+Contains all of the REST API tests utlizing RestAssured,Junit and Cucumber.
+
+APIs tested
+- Get Details
+
+//modifications as the Acceptance Criteria sheet
+Acceptance ccriteria-Make sure API response Ɵme is not less then 3 seconds then current Ɵme in second. 
+o Timestamp is returned in the API response
+
+Comments-the API response is having two time stamps, both of them are not properly refering to the current time,so validated by getting response
+time of the API and validated whether it is less than 3seconds or not
+
+Note-run it as a JUNIT file
